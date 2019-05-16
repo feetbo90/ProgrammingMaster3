@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
 
     val jumlah = bilangan + bilangan2
     val kurang : Int
-    println("Maka hasil penjumlahannya adalah : $jumlah")
+    println("Maka hasil penjumlahannya adalah : ${jumlah.toDouble()}")
 
     val input = Scanner(System.`in`)
     println("Masukkan bilangan : ")
