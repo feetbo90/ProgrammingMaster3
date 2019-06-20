@@ -29,6 +29,18 @@ fun main(args: Array<String>) {
     list.add(3)
     list.add(4)
     tampilkanData(list)
+
+    // cara memanggil kali
+    println("Perkalian : ${bilangan dikalikan bilangan2}" )
+}
+
+infix fun Int.dikalikan(bilangan2: Int) : Int {
+    var hasil = 0
+    for (i in 1 .. bilangan2) {
+        hasil += this
+    }
+    return hasil
+
 }
 
 // fungsi dengan parameter array
