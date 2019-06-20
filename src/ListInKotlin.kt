@@ -42,3 +42,19 @@ fun main(args: Array<String>) {
     println(list)
 
 }
+
+
+/*
+
+    masukkan berapa nilai
+    5
+
+    input bilangan 1 : 100
+    input bilangan 2 : 90
+    input bilangan 3 : 80
+    ...
+    var jumlah = 0
+    for
+
+
+ */
