@@ -1,6 +1,12 @@
 /*
 
+    v = 20 km/jam
+    s = 200 km
 
+    t : ?
+    200 / 20 = 10 jam
+
+    200 - 20 = 180 - 20 = 160 - 20
 
 
  */
@@ -32,6 +38,12 @@ fun main(args: Array<String>) {
 
     // cara memanggil kali
     println("Perkalian : ${bilangan dikalikan bilangan2}" )
+
+    println("fungsi expression : ${add(bilangan,bilangan2)}")
+
+    println(valueGrade(91))
+
+    minus(bilangan2 = 4, bilangan = bilangan)
 }
 
 infix fun Int.dikalikan(bilangan2: Int) : Int {
@@ -76,6 +88,25 @@ fun pengurangan(bilangan: Int, bilangan2: Int) : Int {
     val kurang = bilangan - bilangan2
     return kurang
 }
+
+// fungsi expression
+fun add(bilangan: Int, bilangan2: Int) = bilangan + bilangan2
+
+fun valueGrade(nilai : Int) = if (nilai > 90)
+{
+    print("hallo")
+    "A baru"
+} else if (nilai in 81..90){
+    "B+"
+} else {
+    "C"
+}
+
+// fungsi named parameter
+fun minus(bilangan: Int = 3, bilangan2: Int) {
+    print("ini bilangan $bilangan")
+}
+
 
 
 
