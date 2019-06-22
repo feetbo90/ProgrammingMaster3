@@ -56,11 +56,12 @@ infix fun Int.dikalikan(bilangan2: Int) : Int {
 }
 
 // fungsi dengan parameter array
-fun tampilkanData(list: List<Int>) {
+fun tampilkanData(list: List<Int>): List<Int> {
 
     for (i in 0 until list.size) {
         println("maka nilai $i : ${list[i]}")
     }
+    return list
 }
 
 // fungsi extension
@@ -107,6 +108,26 @@ fun minus(bilangan: Int = 3, bilangan2: Int) {
     print("ini bilangan $bilangan")
 }
 
+
+/*
+
+    fungsi nilai rata"
+    fungsi grade
+
+    fungsi input
+
+
+
+
+
+
+    console :
+    masukkan jumlah data : 5
+    list()
+    fungsi nilai rata"
+    fungsi grade
+
+ */
 
 
 
