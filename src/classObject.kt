@@ -30,5 +30,8 @@ fun main(args: Array<String>) {
 
     bmw.berjalan()
     println("mobil memilik ban : ${bmw.ban} dan warna : ${bmw.warna} dan Gabungan : ${bmw.gabunganBanMerk}")
+
+    val ferrari = mobil(4, "merah", "blablabal", "ferrari", "BK 9080 AU")
+    ferrari.show()
 }
 
